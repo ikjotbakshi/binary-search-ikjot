@@ -51,4 +51,4 @@ https://huggingface.co/spaces/prsee/binary-search-ikjot
 ## Author & Acknowledgment
 Author: Ikjot Bakshi
 Student Number: 20480595
-I acknowledge I used Gradio was the only interface tool I used for this assignment. I used some AI not for the coding portion of the assignment but for the Hugging Face deployment because I have never used this site and needed a bit of guidance on where to click and how to upload my project.
+I acknowledge I used Gradio was the only interface tool I used for this assignment. I used some AI only for the deployment of the Hugging Face and where to go and the starting bits of the gradio coding but most of it was done by myself since it felt like using JavaScript again.
