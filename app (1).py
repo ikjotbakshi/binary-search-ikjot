@@ -68,16 +68,16 @@ def run_binary_search(list_input, target_value):
 
     return result, "\n".join(step_lines)
 with gr.Blocks(title="Binary Search Implementation") as demo:
-    gr.Markdown("# Binary Search Implementation")
-    gr.Markdown("# By: Ikjot Bakshi")
+    gr.Markdown("# Binary Search Implementation")   # title
+    gr.Markdown("# By: Ikjot Bakshi")   # author
 
-    list_box = gr.Textbox(label="List (comma-separated)")
-    target_box = gr.Textbox(label="Target")
+    list_box = gr.Textbox(label="List (comma-separated)")     # subtext and textbox
+    target_box = gr.Textbox(label="Target") # subtext and textbox
 
-    submit_btn = gr.Button("Submit")
+    submit_btn = gr.Button("Submit")   # submit button
 
-    result_box = gr.Textbox(label="Result")
-    steps_box = gr.Textbox(label="Steps", lines=10)
+    result_box = gr.Textbox(label="Result")     # subtext and textbox
+    steps_box = gr.Textbox(label="Steps", lines=10)    # subtext and textbox
 
     submit_btn.click(
         run_binary_search,
